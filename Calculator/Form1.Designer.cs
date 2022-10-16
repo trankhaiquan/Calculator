@@ -41,9 +41,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(86, 114);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 13);
+            this.label1.Size = new System.Drawing.Size(44, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "Số A";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -83,7 +84,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(140, 201);
+            this.textBox1.Location = new System.Drawing.Point(217, 204);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(183, 20);
             this.textBox1.TabIndex = 6;
@@ -91,9 +92,10 @@
             // txtKQ
             // 
             this.txtKQ.AutoSize = true;
+            this.txtKQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtKQ.Location = new System.Drawing.Point(86, 204);
             this.txtKQ.Name = "txtKQ";
-            this.txtKQ.Size = new System.Drawing.Size(46, 13);
+            this.txtKQ.Size = new System.Drawing.Size(97, 25);
             this.txtKQ.TabIndex = 5;
             this.txtKQ.Text = "Kết Quả";
             // 
@@ -111,7 +113,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(700, 480);
+            this.ClientSize = new System.Drawing.Size(760, 522);
             this.Controls.Add(this.btTru);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtKQ);
