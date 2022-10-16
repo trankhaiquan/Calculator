@@ -35,6 +35,7 @@
             this.btCong = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.txtKQ = new System.Windows.Forms.Label();
+            this.btTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -72,7 +73,7 @@
             // 
             // btCong
             // 
-            this.btCong.Location = new System.Drawing.Point(210, 242);
+            this.btCong.Location = new System.Drawing.Point(140, 239);
             this.btCong.Name = "btCong";
             this.btCong.Size = new System.Drawing.Size(75, 23);
             this.btCong.TabIndex = 4;
@@ -96,11 +97,22 @@
             this.txtKQ.TabIndex = 5;
             this.txtKQ.Text = "Kết Quả";
             // 
+            // btTru
+            // 
+            this.btTru.Location = new System.Drawing.Point(248, 239);
+            this.btTru.Name = "btTru";
+            this.btTru.Size = new System.Drawing.Size(75, 23);
+            this.btTru.TabIndex = 7;
+            this.btTru.Text = "Trừ";
+            this.btTru.UseVisualStyleBackColor = true;
+            this.btTru.Click += new System.EventHandler(this.btTru_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 480);
+            this.Controls.Add(this.btTru);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtKQ);
             this.Controls.Add(this.btCong);
@@ -124,6 +136,7 @@
         private System.Windows.Forms.Button btCong;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label txtKQ;
+        private System.Windows.Forms.Button btTru;
     }
 }
 
